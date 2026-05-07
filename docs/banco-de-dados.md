@@ -14,6 +14,8 @@ CREATE TABLE cinema (
     capacidadePublico INTEGER NOT NULL
 );
 
+---
+
 # Tabela Filme
 
 SQL
@@ -25,6 +27,9 @@ CREATE TABLE filme (
     elenco TEXT NOT NULL,
     duracao INTEGER NOT NULL
 );
+
+---
+
 # Tabela Sessao
 
 SQL
