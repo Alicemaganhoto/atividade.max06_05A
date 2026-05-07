@@ -1,1 +1,23 @@
+FilmeRepository.py
+Python
+class FilmeRepository:
 
+    def salvarFilme(self, filme):
+
+        print("INSERT INTO filme")
+        print(f"Filme '{filme.titulo}' salvo com sucesso.")
+SessaoRepository.py
+Python
+class SessaoRepository:
+
+    def salvarSessao(self, sessao):
+
+        print("INSERT INTO sessao")
+        print("Sessao salva com sucesso.")
+
+    def atualizarPublico(self, sessao, quantidade):
+
+        sessao.publico += quantidade
+
+        print("UPDATE sessao")
+        print("Publico atualizado.")
